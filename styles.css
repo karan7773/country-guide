@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #060047;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    background-color: #EEEEEE;
+    width: 80vw;
+    padding: 50px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(8,21,65,0.65);
+}
+.search{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 20px;
+}
+#btn {
+    background: #3d64e6;
+    border-radius: 999px;
+    box-shadow: #3d64e6 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+#btn:hover{
+    opacity: 0.2;
+} 
+#con_ip{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #EEEEEE;
+    font-size: 1em;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid #3d64e6;
+    outline: none;
+    color: #222a43;
+} 
+#result{
+    margin-top: 20px;
+}
+.container .flag-img{
+    display: block;
+    width: 35%;
+    min-width: 120px;
+    margin: 30px auto 2px auto;
+}
+.container h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom:30px;
+}
+.data{
+    margin-bottom: 15px;
+    letter-spacing: 0.3px;
+}
+.container h4 {
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+.container span {
+    color: #5d6274;
+}
+.container h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ff465a;
+}
+
+
