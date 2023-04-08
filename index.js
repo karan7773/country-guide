@@ -1,6 +1,14 @@
 const btn=document.getElementById("btn");
 const coun=document.getElementById("con_ip");
 
+coun.addEventListener("keypress", (event) => {
+  if (event.keyCode === 13) {
+    event.preventDefault();
+    btn.click(); 
+  }
+});
+
+
 btn.addEventListener("click",()=>{
     let countryname =coun.value;
     let finalUrl= `https://restcountries.com/v3.1/name/${countryname}?fullText=true`;
