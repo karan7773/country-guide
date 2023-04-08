@@ -2,7 +2,7 @@ const btn=document.getElementById("btn");
 const coun=document.getElementById("con_ip");
 
 coun.addEventListener("keypress", (event) => {
-  if (event.keyCode === 13) {
+  if (event.key === "Enter") {
     event.preventDefault();
     btn.click(); 
   }
